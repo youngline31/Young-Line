@@ -1,0 +1,11 @@
+program segtiga;
+var
+a,t:integer luas:real;
+uses crt;
+clsr;
+begin
+writeln("masukan a:");readln(a);
+writeln("masukan t:");readln(t);
+luas:=1/2*a*t;
+writeln("hasol:",luas);readln;
+end.
